@@ -12,7 +12,7 @@ class _ViewHomeState extends State<ViewHome> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        padding: EdgeInsets.all(18).copyWith(top: 0,bottom: 0),
+        padding: EdgeInsets.all(10).copyWith(top: 0,bottom: 0),
         width: double.maxFinite,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,

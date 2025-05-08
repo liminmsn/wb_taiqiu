@@ -12,9 +12,12 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 92, 246, 136))
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.white54,
+          primary: Colors.green,
+        ),
       ),
-      home: IndexView()
+      home: IndexView(),
     );
   }
 }
